@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "py-update"
+version = "0.1.0"
+description = "Deep update operations with multiple strategies"
+authors = ["Ryan Persée <98691129+rpersee@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "update", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
