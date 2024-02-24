@@ -1,1 +1,1 @@
-from .main import deepupdate, MODE
+from .update import deepupdate, UpdateConflict
